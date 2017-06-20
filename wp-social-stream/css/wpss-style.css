@@ -1,0 +1,33 @@
+#lifestream {
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  font-size: 13px;
+}
+#lifestream a {
+  text-decoration: none;
+}
+#lifestream a:hover {
+  text-decoration: underline;
+}
+#lifestream ul {
+  padding: 10px;
+}
+#lifestream li {
+  padding: 5px 3px 5px 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  list-style: none;
+  margin-left: 0px;
+}
+#lifestream li:hover {
+  color: #e9e9e9;
+}
+#lifestream .timeago {
+  opacity: .5;
+  float:right;
+  display:block;
+}
+#lifestream .timeago:before {
+	content: ' - ';
+}
